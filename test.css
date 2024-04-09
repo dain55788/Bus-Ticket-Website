@@ -1,0 +1,16 @@
+div .item{
+    width : 300px;
+}
+
+div .image{
+    max-width: 120px;
+    max-height : 120px;
+    padding-top : 0;
+    align-items: center;
+}
+
+div .items {
+    border: 10px;
+    border-style: dotted;
+}
+

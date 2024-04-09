@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+
+* {
+    font-family: 'Nunito', sans-serif;
+    margin : 0px; padding : 0px;
+    box-sizing: border-box;
+    outline: none;
+    border : none;
+    text-decoration: none;
+    transition : all .2s linear;
+}
+
+header {
+    position : fixed;
+    top : 0; left : 0; right : 0;
+    background : #fff;
+    z-index : 900;
+    display : flex;
+    align-items: center; 
+    justify-content: space-between;
+    padding : 2rem 9%;
+}
+
+header .icons i{
+    font-size : 1.5rem;
+    color : #333;
+    margin-right: 2rem;
+    text-transform: none;
+}
+
+header .navBar a{
+    color : #333;
+    font-size : 1.5rem;
+    margin : 0 1rem;
+    text-decoration : none;
+}
+
+.home{
+    min-height: 100vh;
+    display : flex;
+    align-items: center;
+    text-align: left;
+    justify-content: center;
+    flex-flow: row;
+    position : relative;
+    z-index : 0;
+}
+
+.home .content {
+    text-align:left;
+}
+
+.home .content h3{
+    font-size : 2.5rem;
+    color : #fff;
+    text-transform: none;
+    text-shadow : 0 .3rem .5rem rgba(0,0,0,.1);
+}
+
+.home .content p{
+    font-size : 1.5rem;
+    color : #fff;
+    padding : .5rem 0;
+}
+
+.home .content p span{
+    color : var(--orange);
+    text-transform: uppercase;
+}
+
+.home .img-container img{
+    padding : 2 2;
+    position :absolute;
+    top : 0; right : 3rem; left: 3rem;
+    z-index : -1;
+    height : 80%;
+    width : 95%;
+    object-fit:contain;
+}
+
+.packages {
+    background-color: rgb(214, 207, 207);
+    width : 98%;
+    object-fit: cover;
+    top : 0;
+    right : 3rem;
+    left : 6rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.packages .box-container{
+    display : flex;
+    flex-wrap : wrap;
+    gap : 1.5rem;
+}
+
+.packages .box-container .box {
+    flex : 1 1 30rem;
+    border-radius: .5rem;
+    overflow : hidden;
+}
+
+.packages .box-container .box img{
+    height : 20rem;
+    width : 90%;
+    object-fit: cover;
+}
+
+
